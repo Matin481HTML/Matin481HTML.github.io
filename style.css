@@ -1,0 +1,197 @@
+body {
+    font-family: "vazir", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: 100%;
+ 
+}
+html {
+    font-family: "vazir" sans-serif serif;
+    font-size:100%;
+    
+}
+header {
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1px;
+}
+
+.item {
+    
+    background:linear-gradient(280deg ,#cecccc 20% , #6a6c6d 80%);
+    border-radius: 11px;
+    box-shadow: 0 4px 15px rgba(82, 101, 122, 0.904);
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.item h2 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.item p {
+    color: #000000;
+    font-size: 0.9em;
+  
+}
+
+.item .price {
+    font-size: 1.2em;
+    color: #ff0000;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #3498db;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    
+}
+
+.btn:hover {
+    
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: 
+    color(white)
+     
+    
+   
+}
+.ter {
+color: #ce119f;
+padding: 10px 10px;
+}
+body {
+margin: 0%;
+height: auto;
+background-image:url(1900.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+background-attachment: fixed;
+
+
+}
+img{
+    
+}
+ @keyframes rainbowAnimation {
+    0% {
+        color: red;     
+    }
+    16% {
+        color: orange;  
+    }
+    33% {
+        color: yellow;  
+    }
+    50% {
+        color: green;   
+    }
+    66% {
+            color: blue;    
+        }
+    83% {
+        color: indigo;  
+    }
+    100% {
+        color: violet;  
+    }
+}
+.animated-text {
+    font-size: 6rem;     
+    animation: rainbowAnimation 3s ease infinite;   
+    font-size: 3rem;     
+
+         
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);    
+}
+header { 
+
+
+}
+@font-face {
+    font-family: 'vazir';
+    font-weight:bold ;
+    font-display: left;
+        
+    
+}
+.back {
+ 
+}
+.rounded-box {
+color: black;
+align-items: center;
+margin-bottom:
+}
+{
+margin-bottom: 10rem;
+}
+   #go   {
+    background-color:#88fd64;
+    padding: 1rem 0.01rem;
+    border-radius: 10rem;
+    width:6rem ;
+    height: 1.3rem;
+
+    box-shadow: 0 0.25rem 0.6rem rgba(73, 88, 104, 0.904);
+
+    
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    font-family: "vazir" sans-serif;
+    text-align: center;
+    color: rgb(52, 54, 52);
+    
+    
+    
+  
+   }
+   #go:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 8px 20px rgba(85, 82, 82, 0.2);
+   }
+
+    
+        
+    
+
+

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add-to-cart {
+    background-color: #28a745; /* رنگ دکمه */
+    color: white; /* رنگ متن دکمه */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #00cec9; /* رنگ دکمه هنگام hover */
+}
+
+.cart {
+    margin-top: 30px;
+}
+
+.cart h2 {
+    text-align: center;
+}
+
+#cart-items {
+    list-style-type: none ; /* حذف نقطه‌های لیست */
+    padding: 0;
+}
+.item {
+    background-color: #00cec9; /* رنگ پس‌زمینه آیتم */
+    color: rgb(255, 255, 255); /* رنگ متن */
+    padding: 0.5px; /* فاصله داخلی */
+    border-radius: 10px; /* حاشیه گرد */
+    text-align: center; /* وسط‌چین کردن متن */
+    transition: all 0.3s ease; /* انیمیشن نرم برای تغییرات */
+    width: 100px; /* عرض آیتم */
+    margin: 0 auto; /* مرکز کردن آیتم */
+    font-style: color wi;
+}
+   
+}
+    
